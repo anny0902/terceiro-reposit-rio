@@ -9,7 +9,7 @@ const perguntas = [
         enunciado: "No âmbito social, você prefere:",
         alternativas: [
             {
-                texto: "Ser muito sociável, porém só ter notas baixas.,
+                texto: "Ser muito sociável, porém só ter notas baixas.",
                 afirmacao: "Afirmação 1",
             },
             {
@@ -82,5 +82,3 @@ function mostraResultado(){
     caixaAlternativas.textContent = "";
 }
 mostraPerguntas();
-
-}
